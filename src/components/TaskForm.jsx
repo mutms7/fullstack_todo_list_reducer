@@ -45,7 +45,7 @@ const TaskForm = ({ addTask }) => {
           type="number"
           min="1"
           value={newPriority}
-          onChange={(e) => setNewPriority(Number(e.target.value))}
+          onChange={(e) => setNewPriority(Number(e.target.value))} // functional programming means change in state
           style={{
             ...inputStyle,
             width: "3.75rem",
