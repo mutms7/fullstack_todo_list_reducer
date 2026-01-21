@@ -62,10 +62,10 @@ const TaskForm = ({ addTask }) => {
           color: "white",
           padding: "12px",
           border: "none",
-          cursor: "pointer",
+            cursor: "pointer", // plus comes from lucide-react import, has plus button as an icon
         }}
       >
-        <Plus size={20} />  // plus comes from lucide-react import, has plus button as an icon
+        <Plus size={20} />  
       </button>
     </div>
   );
