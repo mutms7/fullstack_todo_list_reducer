@@ -65,7 +65,7 @@ const TaskForm = ({ addTask }) => {
           cursor: "pointer",
         }}
       >
-        <Plus size={20} />
+        <Plus size={20} />  // plus comes from lucide-react import, has plus button as an icon
       </button>
     </div>
   );
